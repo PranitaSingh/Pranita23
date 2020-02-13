@@ -1,11 +1,16 @@
 pipeline {
     agent any
     stages {
-        stage('Build Application') {
+        stage('init') {
             steps {
                echo 'Hi, this is Pranita a Devops Engineer'
                         echo 'We are Starting the Testing' 
             }
+	stage('Build') {
+                  steps {
+                        echo 'Building Sample Maven Project'
+			}
+	    }
             post {
                 success {
                     echo "Now Archiving the Artifacts...."
