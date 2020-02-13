@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-               echo 'Hi, this is Pranita a Devops Engineer''
+               echo 'Hi, this is Pranita a Devops Engineer'
                         echo 'We are Starting the Testing' 
             }
             post {
