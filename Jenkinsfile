@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('init') {
+        stage('Init') {
             steps {
                echo 'Hi, this is Pranita a Devops Engineer'
                         echo 'We are Starting the Testing' 
